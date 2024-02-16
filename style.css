@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Inter;
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body, main, .profileCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body, main {
+    justify-content: center;
+}
+
+body {
+    height: 100vh;
+}
+
+main {
+    height: 960px;
+    width: 1440px;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.profileCard {
+    height: 610px;
+    width: 382px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 12px;
+}
+
+img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin-top: 38px;
+    margin-bottom: 10px;
+}
+
+h1, h2, p, h3 {
+    font-family: Inter;
+}
+
+h1, p, h3 {
+    color: hsl(0, 0%, 100%)
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    margin-top: 11px;
+}
+
+p {
+    font-size: 14px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+button {
+    height: 45px;
+    width: 300px;
+    background-color: hsl(0, 0%, 20%);
+    margin: 8px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:active {
+    background-color: hsl(75, 94%, 57%);
+}
+
+button:active h3 {
+    color: hsl(0, 0%, 12%);
+}
