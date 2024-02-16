@@ -38,11 +38,11 @@ img {
     margin-bottom: 10px;
 }
 
-h1, h2, p, h3 {
+h1, h2, h3, p {
     font-family: Inter;
 }
 
-h1, p, h3 {
+h1, h3, p {
     color: hsl(0, 0%, 100%)
 }
 
@@ -59,14 +59,16 @@ h2 {
     margin-top: 11px;
 }
 
-p {
+h3 {
     font-size: 14px;
+    font-weight: 400;
     margin-top: 17px;
     margin-bottom: 17px;
 }
 
-h3 {
+p {
     font-size: 14px;
+    font-weight: 700;
 }
 
 button {
@@ -82,6 +84,6 @@ button:active {
     background-color: hsl(75, 94%, 57%);
 }
 
-button:active h3 {
+button:active p {
     color: hsl(0, 0%, 12%);
 }
